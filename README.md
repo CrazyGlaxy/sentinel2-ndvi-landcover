@@ -21,11 +21,12 @@ scikit-learn).
 ![NDVI](ndvi.png)
 ![Clusters](clusters.png)
 
+
 | Cluster | Mean NDVI | Share of pixels | Interpretation |
 |---|---|---|---|
-| 0 | [ ] | [ ] | [ ] |
-| 1 | [ ] | [ ] | [ ] |
-| 2 | [ ] | [ ] | [ ] |
+| 0 | 0.50 | 63% | High vegetation (dense, healthy cover) |
+| 1 | 0.21 | 23% | Low vegetation / mixed surfaces |
+| 2 | 0.23 | 13% | Low vegetation / mixed surfaces (differs from cluster 1 in brightness) |
 
 ## Limitations
 - Unsupervised: clusters are interpreted from NDVI values, not validated
